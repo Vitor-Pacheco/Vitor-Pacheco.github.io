@@ -3,19 +3,78 @@
   <head>
     <meta charset="UTF-8">
     <title>Portifolio</title>
+ <style>
+  
+  body {
+     background-color: rgb(183, 211, 242);
+   }
+  h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+  }
+
+  h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    background-color: antiquewhite;
+  }
+
+  h3 {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+  }
+
+  li {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+  }
+
+  p {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+  }
+
+  .imagem-central {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  }
+
+  .reddit {
+    text-align: center;
+    background-color: orange;
+  }
+
+  .lugarinternet {
+    background-color: orange;
+  }
+
+  .voltarfoto {
+    background-color: antiquewhite;
+  }
+  
+  .videogame {
+     font-size: 18px;
+     font-style: italic;
+
+  }
+
+ </style>
   </head>
 <body>
-    <h1>Olá! Eu sou Vítor Pacheco de Oliveira!</h1>
-    <img id="foto" src="eu.jpeg" alt="Foto minha" width=300px>
-    <p>Meu nome é Vítor, tenho 20 anos e sou de Duque de Caxias/Rj.<br> É uma cidade legal mas não quero ficar aqui, apesar de gostar muito do Rio e das praias daqui. <br></p>
-    <p>Eu gosto de:</p>
+  <h1>Olá! Eu sou Vítor Pacheco de Oliveira!</h1>
+    <img id="foto" src="eu.jpeg" alt="Foto minha" width=300px class="imagem-central">
+    <h2>Meu nome é Vítor, tenho 20 anos e sou de Duque de Caxias/Rj.<br> Gosto muito do Rio e das praias daqui! <br></h2>
+    <h3>Lista de Habilidades:<br><br></h3>
     <ul>
-    <li><strong>Jogar videogame</strong></li>
+    <li class="videogame"><strong>Jogar videogame</strong></li>
     <li>Malhar</li>
     <li>Programar</li>
     <li>Cantar no chuveiro</li>
     <li>Dizem que sou um ótimo ouvinte!</li>
-    <li><a href="#internet">Lugar na internet que eu gosto!</a></li>
+    <li><a href="#internet" class="lugarinternet">Lugar na internet que eu gosto!</a></li>
     </ul>
     <br>
     <br>
@@ -26,8 +85,8 @@
     <br>
     <br>
     <br>
-    <p><a href="#foto">Para voltar à minha foto clique aqui!</a><br><br><br><br></p>
+    <p class="voltarfoto"><a href="#foto">Para voltar à minha foto clique aqui!</a></p>
     <p id="internet">Esse é um lugar na internet que eu gosto! É uma rede social dividida em diversos fóruns sobre quase todo tipo de assunto ou tema! Vai lá dar uma olhada:</p>
-    <a href="https://www.reddit.com/" target=_blank>É o Reddit!!!<br><br><br></a>
+    <p><a href="https://www.reddit.com/" class="reddit" target=_blank>É o Reddit!!!<br><br><br></a></p>
 </ul>
 </body>
