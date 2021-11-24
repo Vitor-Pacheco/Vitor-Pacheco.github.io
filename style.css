@@ -1,17 +1,22 @@
 
   body {
     background-color: rgb(183, 211, 242);
+    padding: 3%;
   }
  h1 {
    text-align: center;
    font-family: Arial, sans-serif;
    background-color:white;
+   width: 100%;
  }
 
  h2 {
    text-align: center;
    font-family: 'Franklin Gothic Medium', sans-serif;
-   background-color: white;
+   position: absolute;
+   top: 30%;
+   left: 33%;
+   color: white;
  }
 
  h3 {
@@ -28,11 +33,32 @@
     font-family: 'Franklin Gothic Medium', sans-serif;
   }
 
-  .imagem-central {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
+  ul li:nth-child(odd) {
+      background-color: limegreen;
+  }
+
+  ul li:nth-child(even) {
+      background-color: yellow;
+  }
+
+  #foto {
+     float:left;
+     height: 330px;
+     padding:10px;
+     background-color: blue;
+  }
+
+  #internet {
+      font-size: 150%;
+      background-color: orange;
+      padding: 3%;
+  }
+
+  .imagem-e-descricao {
+      height: 350px;
+      padding:0px;
+      background-color: black;
+      position: relative;
   }
 
   .reddit {
