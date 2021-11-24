@@ -1,0 +1,55 @@
+
+  body {
+    background-color: rgb(183, 211, 242);
+  }
+ h1 {
+   text-align: center;
+   font-family: Arial, sans-serif;
+   background-color:white;
+ }
+
+ h2 {
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', sans-serif;
+   background-color: white;
+ }
+
+ h3 {
+   text-align: left;
+   font-family: 'Franklin Gothic Medium', sans-serif;
+ }
+ li {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+  }
+
+  p {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+  }
+
+  .imagem-central {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  }
+
+  .reddit {
+    text-align: center;
+    background-color: orange;
+  }
+
+  .lugarinternet {
+    background-color: orange;
+  }
+
+  .voltarfoto {
+    background-color: antiquewhite;
+  }
+  
+  .videogame {
+     font-size: 18px;
+     font-style: italic;
+
+  }
