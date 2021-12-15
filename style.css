@@ -1,51 +1,113 @@
 
   body {
-    background-color: rgb(183, 211, 242);
-    padding: 3%;
+    background-color: white;
   }
- h1 {
-   text-align: center;
-   font-family: Arial, sans-serif;
-   background-color:white;
-   width: 100%;
- }
 
- h2 {
-   text-align: center;
-   font-family: 'Franklin Gothic Medium', sans-serif;
-   position: absolute;
-   top: 30%;
-   left: 33%;
-   color: white;
- }
 
  h3 {
+  margin-left: 40px;
+   color: white;
    text-align: left;
-   font-family: 'Franklin Gothic Medium', sans-serif;
+   font-family:'Courier New', Courier, monospace;
  }
- li {
-    text-align: left;
-    font-family: 'Franklin Gothic Medium', sans-serif;
-  }
+ 
 
   p {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', sans-serif;
+    margin-left: 40px;
+   color: white;
+   text-align: left;
+    font-family:'Courier New', Courier, monospace;
   }
 
-  ul li:nth-child(odd) {
-      background-color: limegreen;
-  }
-
-  ul li:nth-child(even) {
-      background-color: yellow;
+  #titulo {
+    text-align: left;
+    margin-left: 40px;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    width: 100%;
+    height: 50px;
   }
 
   #foto {
-     float:left;
-     height: 330px;
-     padding:10px;
-     background-color: blue;
+    float:left;
+    height: 125px;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 1140px;
+    border: 5px solid lightseagreen;
+ }
+
+  #cabecalho, #descricao, #formacao, #habilidades {
+    background-color:rgb(27, 25, 25);
+    border-radius: 35px;
+    border: 5px solid lightseagreen;
+  }
+
+  #reddit {
+    font-size: 18px;
+    background-color:orange;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    width: 220px;
+    margin-left: 40px;
+    border-radius: 35px;
+    cursor: pointer;
+  }
+
+  #linkedin {
+    font-size: 18px;
+    background-color: blue;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    width: 180px;
+    margin-left: 40px;
+    border-radius: 35px;
+    cursor: pointer;
+  }
+
+  #github {
+    font-size: 18px;
+    background-color:rgb(219, 9, 219);
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    width: 160px;
+    margin-left: 40px;
+    border-radius: 35px;
+    cursor: pointer;
+  }
+
+  #reddit :link {
+    color: black;
+    text-decoration: none;
+  }
+
+  #reddit :visited {
+    color: black;
+    text-decoration: none;
+  }
+
+  #linkedin :link {
+    color: white;
+    text-decoration: none;
+  }
+
+  #linkedin :visited {
+    color:white;
+    text-decoration: none;
+  }
+
+  #github :link {
+    color: black;
+    text-decoration: none;
+  }
+
+  #github :visited {
+    color: black;
+    text-decoration: none;
+  }
+
+  #nav {
+    display:inline-flex;
   }
 
   #internet {
@@ -54,28 +116,19 @@
       padding: 3%;
   }
 
-  .imagem-e-descricao {
-      height: 350px;
-      padding:0px;
-      background-color: black;
-      position: relative;
+  #titulo-descricao {
+    margin-left: 40px;
+    color: white;
   }
 
-  .reddit {
-    text-align: center;
-    background-color: orange;
+  #texto {
+    margin-left: 40px;
+    color: white;
   }
 
-  .lugarinternet {
-    background-color: orange;
-  }
-
-  .voltarfoto {
-    background-color: antiquewhite;
-  }
-  
-  .videogame {
-     font-size: 18px;
-     font-style: italic;
-
+  .item {
+    text-align: left;
+    margin-left: 20px;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
   }
