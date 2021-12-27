@@ -1,134 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
-  body {
-    background-color: white;
-  }
+body {
+  background-color: black;
+}
 
+#navegation {
+  position: fixed;
+  background-color: white;
+  padding-right: 1119px;
+}
 
- h3 {
+.link {
+  text-decoration: none;
+}
+
+.icon {
+  width: 40px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+#link-texto-sobre {
+  font-size: 20px;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-weight: lighter;
+  margin-left: 20px;
+  text-decoration: none;
+  position: absolute;
+  margin-left: 900px;
+  margin-top: 10px;
+}
+
+#link-texto-skills {
+  font-size: 20px;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-weight: lighter;
+  margin-left: 20px;
+  text-decoration: none;
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: 10px;
+}
+
+#principal {
+  background-image: url('background.jpg');
+  padding-bottom: 38px;
+}
+
+#conteudo{
+  padding-top: 150px;
+}
+
+#foto {
+  width: 170px;
+  margin-left: 580px;
+  border: 5px solid white;
+  border-radius: 100%;
+}
+
+#titulo, #subtitulo {
+  font-size: 90px;
+  margin: 0%;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+
+#subtitulo {
+  font-size: 30px;
+}
+
+#sobre {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.titulo-div {
+  font-size: 40px;
+  font-weight: bolder;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-weight: lighter;
   margin-left: 40px;
-   color: white;
-   text-align: left;
-   font-family:'Courier New', Courier, monospace;
- }
- 
+}
 
-  p {
-    margin-left: 40px;
-   color: white;
-   text-align: left;
-    font-family:'Courier New', Courier, monospace;
-  }
+#texto {
+  font-size: 20px;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-weight: lighter;
+  margin-left: 40px;
+}
 
-  #titulo {
-    text-align: left;
-    margin-left: 40px;
-    font-family:'Courier New', Courier, monospace;
-    color: white;
-    width: 100%;
-    height: 50px;
-  }
+#foto-do-rio {
+  background-image: url('background.jpg');
+  padding-bottom: 38px;
+}
 
-  #foto {
-    float:left;
-    height: 125px;
-    position: absolute;
-    margin-top: 7px;
-    margin-left: 1140px;
-    border: 5px solid lightseagreen;
- }
+#rj {
+  margin-top: 65px;
+  margin-left: 400px;
+  width: 500px;
+  border: 5px solid white;
+}
 
-  #cabecalho, #descricao, #formacao, #habilidades {
-    background-color:rgb(27, 25, 25);
-    border-radius: 35px;
-    border: 5px solid lightseagreen;
-  }
+#skills {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
-  #reddit {
-    font-size: 18px;
-    background-color:orange;
-    text-align: center;
-    font-family:'Courier New', Courier, monospace;
-    width: 220px;
-    margin-left: 40px;
-    border-radius: 35px;
-    cursor: pointer;
-  }
+.lista {
+  font-size: 20px;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-weight: lighter;
+  margin-left: 60px;
+}
 
-  #linkedin {
-    font-size: 18px;
-    background-color: blue;
-    text-align: center;
-    font-family:'Courier New', Courier, monospace;
-    width: 180px;
-    margin-left: 40px;
-    border-radius: 35px;
-    cursor: pointer;
-  }
+#footer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(10, 10, 10);
+}
 
-  #github {
-    font-size: 18px;
-    background-color:rgb(219, 9, 219);
-    text-align: center;
-    font-family:'Courier New', Courier, monospace;
-    width: 160px;
-    margin-left: 40px;
-    border-radius: 35px;
-    cursor: pointer;
-  }
-
-  #reddit :link {
-    color: black;
-    text-decoration: none;
-  }
-
-  #reddit :visited {
-    color: black;
-    text-decoration: none;
-  }
-
-  #linkedin :link {
-    color: white;
-    text-decoration: none;
-  }
-
-  #linkedin :visited {
-    color:white;
-    text-decoration: none;
-  }
-
-  #github :link {
-    color: black;
-    text-decoration: none;
-  }
-
-  #github :visited {
-    color: black;
-    text-decoration: none;
-  }
-
-  #nav {
-    display:inline-flex;
-  }
-
-  #internet {
-      font-size: 150%;
-      background-color: orange;
-      padding: 3%;
-  }
-
-  #titulo-descricao {
-    margin-left: 40px;
-    color: white;
-  }
-
-  #texto {
-    margin-left: 40px;
-    color: white;
-  }
-
-  .item {
-    text-align: left;
-    margin-left: 20px;
-    font-family:'Courier New', Courier, monospace;
-    color: white;
-  }
+#texto-footer {
+  font-size: 20px;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: lighter;
+  margin-left: 30px;
+}

@@ -1,54 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8"> 
-    <link rel="stylesheet" href="style.css">
-    <title>Portifolio de Vítor Pacheco</title>
-  </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Vítor Pacheco</title>
+</head>
 <body>
-  
-<div id='cabecalho'>
-
-  <img id="foto" src="eu.jpeg" alt="Foto minha">
-  <header>
-    
-  <h1 id="titulo">Vítor Pacheco de Oliveira</h1>
-  <nav id='nav'>
-    <p id="reddit"><a href="https://www.reddit.com/" target=_blank> Meu site favorito </a></p>
-    <p id="linkedin"><a href="https://www.linkedin.com/in/v%C3%ADtor-pacheco-21ab92208" target=_blank> Meu LinkedIn </a></p>
-    <p id="github"><a href="https://github.com/Vitor-Pacheco" target=_blank> Meu GitHub </a></p>
+  <nav id='navegation'>
+    <div id='links'>
+    <a href='https://github.com/Vitor-Pacheco' target='_blank' class='link'>
+    <img id='github' class='icon' src='github-icon.png' alt='link para github'>
+    </a>
+    <a href='https://instagram.com/vepachecoo?utm_medium=copy_link' target='_blank' class='link'>
+    <img id='insta' class='icon' src='insta-icon.png' alt='link para instagram'>
+    </a>
+    <a href='https://www.linkedin.com/in/v%C3%ADtor-pacheco-21ab92208' target='_blank' class='link'>
+    <img id='linkedin' class='icon' src='linkedin-icon.png' alt='link para linkedin'>
+    </a>
+    <a href='https://mail.google.com/mail/u/0/#inbox' target='_blank' class='link'>
+      <img id='gmail' class='icon' src='gmail-icon.png' alt='link para gmail'>
+    </a>
+    <a href='#sobre' id='link-texto-sobre'>SOBRE</a>
+    <a href='#skills' id='link-texto-skills'>SKILLS</a>
+    </div>
   </nav>
-  <br>
-  </header>
-
-</div>
-
-<br>
-<article id="descricao"> 
-  <h3 id="titulo-descricao">Descrição</h3>
-   <p id='texto'>Meu nome é Vítor, tenho 20 anos e sou de Duque de Caxias/Rj.<br> Sou estudante de programação na Trybe e tenho Ensino Médio completo, além de ser formado em informática pelo Colégio Pedro II. <br></p>
-</article>
-<br>
-
-<section id='formacao'>
-  <h3>Formação</h3>
-  <p>Colégio Pedro II - Ensino Médio Completo (2017 - 2020)</p>
-  <p>Curso de informática - Curso Completo (2017 - 2020)</p>
-  <p>Escola de Programação Trybe (2021 - Ainda em Processo)</p>
-</section> 
-<br>
-
-<div id='habilidades'>
-<h3>Lista de Habilidades:<br></h3>
-  <ul id='lista'>
-    <li class='item'> HTML </li>
-    <li class='item'> CSS </li>
-    <li class='item'> JavaScript </li>
-    <li class='item'> Unix & Shell </li>
-    <li class='item'> TypeScript </li>
-    <li class='item'> Soft Skills </li>
-  </ul>
-</div>
-<br>
-
+  <div id='principal'>
+    <div id='conteudo'>
+    <img id='foto' src='eu.jpeg' alt='minha foto'>
+    <h1 id='titulo'>Vítor Pacheco</h1>
+    <h2 id='subtitulo'>Estudante e Programador</h2>
+    <br><br>
+    </div>
+  </div>
+  <div id='sobre'>
+    <h2 class='titulo-div'>Sobre</h2><br>
+    <p id='texto'>Olá! Meu nome é Vítor Pacheco de Oliveira, tenho 20 anos e sou de Duque de Caxias/RJ. <br> Atualmente sou estudante da Trybe, um programador em desenvolvimento, um gamer e também faço musculação todo dia!<br><br></p>
+  </div>
+  <div id='foto-do-rio'>
+    <img id='rj' src='rio-de-janeiro.jpg' alt='foto do rio de janeiro'>
+  </div>
+  <div id='skills'>
+    <h2 class='titulo-div'>Skills</h2><br>
+    <ul>
+      <li class='lista'>HTML</li>
+      <li class='lista'>CSS</li>
+      <li class='lista'>JavaScript</li>
+      <li class='lista'>DOM</li>
+      <li class='lista'>Unix & Shell</li>
+    </ul>
+  </div>
+  <footer id='footer'>
+    <p id='texto-footer'>Todos os direitos reservados a Vítor Pacheco</p>
+  </footer>  
 </body>
+</html>
