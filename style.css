@@ -10,7 +10,7 @@ body {
 #navegation {
   position: fixed;
   background-color: white;
-  padding-right: 1119px;
+  padding-right: 84%;
 }
 
 .link {
@@ -18,7 +18,7 @@ body {
 }
 
 .icon {
-  width: 40px;
+  width: 36px;
   cursor: pointer;
   margin-left: 15px;
 }
@@ -31,7 +31,7 @@ body {
   margin-left: 20px;
   text-decoration: none;
   position: absolute;
-  margin-left: 900px;
+  margin-left: 70%;
   margin-top: 10px;
 }
 
@@ -43,13 +43,13 @@ body {
   margin-left: 20px;
   text-decoration: none;
   position: absolute;
-  margin-left: 1000px;
+  margin-left: 77%;
   margin-top: 10px;
 }
 
 #principal {
   background-image: url('background.jpg');
-  padding-bottom: 38px;
+  padding-bottom: 3%;
 }
 
 #conteudo{
@@ -57,8 +57,10 @@ body {
 }
 
 #foto {
-  width: 170px;
-  margin-left: 580px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
   border: 5px solid white;
   border-radius: 100%;
 }
@@ -101,12 +103,14 @@ body {
 
 #foto-do-rio {
   background-image: url('background.jpg');
-  padding-bottom: 38px;
+  padding-top: 4%;
+  padding-bottom: 4%;
 }
 
 #rj {
-  margin-top: 65px;
-  margin-left: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 500px;
   border: 5px solid white;
 }
