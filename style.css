@@ -8,9 +8,10 @@ body {
 }
 
 #navegation {
-  position: fixed;
+  position: sticky;
+  top: 0;
   background-color: white;
-  padding-right: 84%;
+  display: flex;
 }
 
 .link {
@@ -23,28 +24,19 @@ body {
   margin-left: 15px;
 }
 
-#link-texto-sobre {
+.link-texto {
   font-size: 20px;
   color: black;
   font-family: 'Nunito', sans-serif;
   font-weight: lighter;
   margin-left: 20px;
   text-decoration: none;
-  position: absolute;
-  margin-left: 70%;
-  margin-top: 10px;
 }
 
-#link-texto-skills {
-  font-size: 20px;
-  color: black;
-  font-family: 'Nunito', sans-serif;
-  font-weight: lighter;
-  margin-left: 20px;
-  text-decoration: none;
-  position: absolute;
-  margin-left: 77%;
-  margin-top: 10px;
+#div-links {
+  float: right;
+  margin-left: 980px;
+  margin-top: 8px;
 }
 
 #principal {
@@ -53,7 +45,7 @@ body {
 }
 
 #conteudo{
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 #foto {
