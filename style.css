@@ -3,40 +3,34 @@
   padding: 0;
 }
 
-body {
-  background-color: black;
-}
-
 #navegation {
   position: sticky;
   top: 0;
-  background-color: white;
+  background-color: rgb(10, 10, 10);;
   display: flex;
-}
-
-.link {
-  text-decoration: none;
-}
-
-.icon {
-  width: 36px;
-  cursor: pointer;
-  margin-left: 15px;
 }
 
 .link-texto {
   font-size: 20px;
-  color: black;
+  color: white;
   font-family: 'Nunito', sans-serif;
   font-weight: lighter;
   margin-left: 20px;
   text-decoration: none;
+  transition: font-size 0.3s;
+  transition: background-color 0.3s;
+}
+
+.link-texto:hover {
+  background-color: white;
+  color: rgb(10, 10, 10);
+  font-size: 22px;
 }
 
 #div-links {
-  float: right;
-  margin-left: 980px;
-  margin-top: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #principal {
@@ -70,6 +64,10 @@ body {
   font-size: 30px;
 }
 
+#div-antes-sobre, #div-antes-skills, #div-antes-contatos {
+  background-color: white;
+}
+
 #sobre {
   background-color: white;
   padding-top: 20px;
@@ -85,7 +83,7 @@ body {
   margin-left: 40px;
 }
 
-#texto {
+.texto {
   font-size: 20px;
   color: black;
   font-family: 'Nunito', sans-serif;
@@ -99,7 +97,7 @@ body {
   padding-bottom: 4%;
 }
 
-#rj {
+.imagem {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -119,6 +117,57 @@ body {
   font-family: 'Nunito', sans-serif;
   font-weight: lighter;
   margin-left: 60px;
+  text-decoration: none;
+}
+
+#contato {
+  background-color: white;
+  padding-top: 5px;
+}
+
+#titulo-div-contato {
+  font-size: 25px;
+  font-weight: bolder;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-weight: lighter;
+  margin-left: 40px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.icon {
+  width: 30px;
+  cursor: pointer;
+}
+
+
+#github-text, #ig-text, #linkedin-text {
+  font-size: 20px;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-weight: lighter;
+  margin-left: 0px;
+  text-decoration: none;
+  transition: font-size 0.5s;
+}
+
+#github-text {
+  color:  rgb(116, 3, 116);
+}
+
+#ig-text {
+  color: rgb(232, 113, 176);
+}
+
+#linkedin-text {
+  color: rgb(0, 38, 255);
+}
+
+#github-text:hover, #ig-text:hover, #linkedin-text:hover {
+  font-size: 24px;
 }
 
 #footer {
@@ -133,4 +182,5 @@ body {
   font-family: 'Nunito', sans-serif;
   font-weight: lighter;
   margin-left: 30px;
+  text-align: center;
 }
