@@ -7,7 +7,25 @@ html {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ededed;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(130, 130, 130);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(104, 104, 104);
+}
+
 #navegation {
+  padding-top: 5px;
+  padding-bottom: 5px;
   position: sticky;
   top: 0;
   background-color: rgb(10, 10, 10);;
@@ -21,10 +39,13 @@ html {
   font-weight: lighter;
   margin-left: 20px;
   text-decoration: none;
+  transition: padding 0.3s;
   transition: background-color 0.3s;
+  transition: color 0.3s;
 }
 
 .link-texto:hover {
+  padding: 5px;
   background-color: white;
   color: rgb(10, 10, 10);
 }
@@ -49,12 +70,13 @@ html {
   margin-left: auto;
   margin-right: auto;
   width: 200px;
-  border: 5px solid white;
+  border: 3px solid white;
   border-radius: 100%;
 }
 
 #titulo, #subtitulo {
   font-size: 90px;
+  text-shadow: 1px 0 0 rgb(0, 0, 0), -1px 0 0 rgb(0, 0, 0), 0 1px 0 rgb(0, 0, 0), 0 -1px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
   margin: 0%;
   color: white;
   font-family: 'Nunito', sans-serif;
@@ -68,16 +90,18 @@ html {
 
 #div-antes-sobre, #div-antes-skills, #div-antes-educacao, #div-antes-contatos {
   background-color: white;
+  border-top: 2px solid black;
 }
 
 #sobre, #skills, #contato, #educacao {
   background-color: white;
+  border-bottom: 2px solid black;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .titulo-div {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bolder;
   color: black;
   font-family: 'Nunito', sans-serif;
@@ -112,7 +136,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   width: 500px;
-  border: 5px solid white;
+  border: 3px solid white;
 }
 
 .lista {
@@ -132,15 +156,6 @@ html {
   margin-left: 40px;
 }
 
-#titulo-div-contato {
-  font-size: 25px;
-  font-weight: bolder;
-  color: black;
-  font-family: 'Nunito', sans-serif;
-  font-weight: lighter;
-  margin-left: 40px;
-}
-
 .link {
   text-decoration: none;
 }
@@ -149,7 +164,6 @@ html {
   width: 30px;
   cursor: pointer;
 }
-
 
 #github-text, #ig-text, #linkedin-text {
   font-size: 20px;
@@ -162,11 +176,11 @@ html {
 }
 
 #github-text {
-  color:  rgb(116, 3, 116);
+  color:  rgb(130, 0, 130);
 }
 
 #ig-text {
-  color: rgb(232, 113, 176);
+  color: rgb(247, 80, 169);
 }
 
 #linkedin-text {
@@ -174,7 +188,8 @@ html {
 }
 
 #github-text:hover, #ig-text:hover, #linkedin-text:hover {
-  font-size: 24px;
+  font-size: 22px;
+  text-decoration: underline;
 }
 
 #footer {
