@@ -17,14 +17,12 @@
   font-weight: lighter;
   margin-left: 20px;
   text-decoration: none;
-  transition: font-size 0.3s;
   transition: background-color 0.3s;
 }
 
 .link-texto:hover {
   background-color: white;
   color: rgb(10, 10, 10);
-  font-size: 22px;
 }
 
 #div-links {
@@ -64,11 +62,11 @@
   font-size: 30px;
 }
 
-#div-antes-sobre, #div-antes-skills, #div-antes-contatos {
+#div-antes-sobre, #div-antes-skills, #div-antes-educacao, #div-antes-contatos {
   background-color: white;
 }
 
-#sobre {
+#sobre, #skills, #contato, #educacao {
   background-color: white;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -91,7 +89,7 @@
   margin-left: 40px;
 }
 
-#foto-do-rio {
+.foto-div {
   background-image: url('background.jpg');
   padding-top: 4%;
   padding-bottom: 4%;
@@ -105,12 +103,6 @@
   border: 5px solid white;
 }
 
-#skills {
-  background-color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 .lista {
   font-size: 20px;
   color: black;
@@ -120,9 +112,12 @@
   text-decoration: none;
 }
 
-#contato {
-  background-color: white;
-  padding-top: 5px;
+.texto-educacao {
+  font-size: 20px;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-weight: lighter;
+  margin-left: 40px;
 }
 
 #titulo-div-contato {
@@ -151,7 +146,7 @@
   font-weight: lighter;
   margin-left: 0px;
   text-decoration: none;
-  transition: font-size 0.5s;
+  transition: font-size 0.3s;
 }
 
 #github-text {
