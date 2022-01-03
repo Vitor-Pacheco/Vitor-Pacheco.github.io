@@ -8,19 +8,19 @@ html {
 }
 
 ::-webkit-scrollbar {
-  width: 13px;
+  width: 0.9em;
 }
 
 ::-webkit-scrollbar-track {
-  background: #ededed;
+  background: rgb(230, 228, 228);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(130, 130, 130);
+  background: rgb(99, 99, 99);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(104, 104, 104);
+  background: rgb(87, 87, 87);
 }
 
 #navegation {
@@ -33,7 +33,7 @@ html {
 }
 
 .link-texto {
-  font-size: 20px;
+  font-size: 1.2em;
   color: white;
   font-family: 'Nunito', sans-serif;
   font-weight: lighter;
@@ -75,7 +75,7 @@ html {
 }
 
 #titulo, #subtitulo {
-  font-size: 90px;
+  font-size: 6em;
   text-shadow: 1px 0 0 rgb(0, 0, 0), -1px 0 0 rgb(0, 0, 0), 0 1px 0 rgb(0, 0, 0), 0 -1px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
   margin: 0%;
   color: white;
@@ -85,7 +85,7 @@ html {
 }
 
 #subtitulo {
-  font-size: 30px;
+  font-size: 2em;
 }
 
 #div-antes-sobre, #div-antes-skills, #div-antes-educacao, #div-antes-contatos {
@@ -101,7 +101,7 @@ html {
 }
 
 .titulo-div {
-  font-size: 35px;
+  font-size: 2em;
   font-weight: bolder;
   color: black;
   font-family: 'Nunito', sans-serif;
@@ -110,7 +110,7 @@ html {
 }
 
 .texto {
-  font-size: 20px;
+  font-size: 1.2em;
   color: black;
   font-family: 'Nunito', sans-serif;
   font-weight: lighter;
@@ -118,7 +118,7 @@ html {
 }
 
 #texto-email {
-  font-size: 20px;
+  font-size: 1em;
   color: black;
   font-family: 'Nunito', sans-serif;
   font-weight: lighter;
@@ -177,14 +177,17 @@ html {
 
 #github-text {
   color:  rgb(130, 0, 130);
+  transition: font-size 0.3s;
 }
 
 #ig-text {
   color: rgb(247, 80, 169);
+  transition: font-size 0.3s;
 }
 
 #linkedin-text {
   color: rgb(0, 38, 255);
+  transition: font-size 0.3s;
 }
 
 #github-text:hover, #ig-text:hover, #linkedin-text:hover {
