@@ -23,6 +23,7 @@ html {
   background: rgb(87, 87, 87);
 }
 
+
 #navegation {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -30,6 +31,7 @@ html {
   top: 0;
   background-color: rgb(10, 10, 10);;
   display: flex;
+  justify-content: center;
 }
 
 .link-texto {
@@ -50,11 +52,6 @@ html {
   color: rgb(10, 10, 10);
 }
 
-#div-links {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 #principal {
   background-image: url('background.jpg');
@@ -206,6 +203,5 @@ html {
   color: white;
   font-family: 'Nunito', sans-serif;
   font-weight: lighter;
-  margin-left: 30px;
   text-align: center;
 }
