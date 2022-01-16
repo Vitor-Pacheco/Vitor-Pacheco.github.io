@@ -46,17 +46,36 @@
   <div id='div-antes-skills'><br></div>
 
   <div id='skills'>
-    <h2 class='titulo-div'>Skills</h2><br>
-    <ul type='circle'>
-      <li class='lista'>HTML</li>
-      <li class='lista'>CSS</li>
-      <li class='lista'>JavaScript</li>
-      <li class='lista'>DOM</li>
-      <li class='lista'>Unix & Shell</li>
-      <li class='lista'>Inglês Avançado</li>
-    </ul>
+    <h2 class='titulo-div'>Skills</h2>
+    <p class="texto" id="texto-skills-2">Clique em uma das habilidades!</p><br>
+    <div>
+      <div id="skills-div">
+        <br><br>
+        <div class="skills-container" id="html"> 
+          <h4>HTML</h4>
+          <img class="gallery-img" id="html" src="html-logo.png" alt="HTML logo" />
+        </div>
+        <div class="skills-container"id="css">
+          <h4>CSS</h4>
+          <img class="gallery-img" id="css" src="css-logo.png" alt="CSS logo" />
+        </div>
+        <div class="skills-container" id="javascript">
+          <h4>JavaScript</h4>
+          <img class="gallery-img" id="javascript" src="javaScript-logo.png" alt="JavaScript logo" />
+        </div>
+        <br><br>
+      </div>
     <br>
-    <p class=texto>O aprendizado em programação é <strong>constante</strong> e sempre há mais a se aprender!<br> Esta lista será atualizada com o tempo com novos conhecimentos e conhecimentos ultrapassados serão removidos.</p><br>
+     <br>
+      <div class="hidden-div">
+        <h2 class="texto" id="titulo-skills"><strong>BLABLA</strong></h2>
+
+        <button id="button-skills">X</button>
+        <p class="texto" id="texto-skills">BLABLABLABLABALBALBALBALABLABLABLABALBLBLBALABBALBALBALBALBALABLABLABLABALBLBLAB</p>
+      </div>
+    </div>
+    <br>
+    <p class="texto" id="texto-skills-2" >O aprendizado em programação é <strong>constante</strong> e sempre há mais a se aprender!<br> Esta lista será atualizada com o tempo com novos conhecimentos e conhecimentos ultrapassados serão removidos.</p><br>
   </div>
 
   <div class='foto-div'>
@@ -105,5 +124,7 @@
   <footer id='footer'>
     <p id='texto-footer'>Todos os direitos reservados a Vítor Pacheco</p>
   </footer>  
+
+<script src="script.js"></script> 
 </body>
 </html>

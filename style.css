@@ -97,6 +97,72 @@ html {
   padding-bottom: 20px;
 }
 
+#skills {
+  padding-bottom: 0px;
+}
+
+#skills-div {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.skills-container {
+  background-color: rgb(230, 227, 227);
+  border-radius: 15px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 220px;
+  height: 260px;
+}
+
+.hidden-div {
+  display: none;
+  border: 2px solid black;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.show-div {
+  display: block;
+  border: 2px solid black;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.hide-div {
+  display: none;
+  border: 2px solid black;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#button-skills {
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  background-color: rgba(255, 0, 0, 0.761);
+  position: relative;
+  left: 97%;
+  bottom: 27px;
+  cursor: pointer;
+}
+
+.gallery-img {
+  width: 200px;
+  height: 220px;
+}
+
+#html , #css , #javascript {
+  cursor: pointer;
+}
+
 .titulo-div {
   font-size: 2em;
   font-weight: bolder;
@@ -112,6 +178,23 @@ html {
   font-family: 'Nunito', sans-serif;
   font-weight: lighter;
   margin-left: 40px;
+}
+
+#texto-skills , #texto-skills-2 , #titulo-skills {
+  font-size: 1.2em;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-weight: lighter;
+  margin-top: 25px;
+  text-align: center;
+}
+
+#texto-skills {
+  margin-top: 0px;
+}
+
+#titulo-skills {
+  margin-top: 5px;
 }
 
 #texto-email {
@@ -136,15 +219,6 @@ html {
   border: 3px solid white;
 }
 
-.lista {
-  font-size: 20px;
-  color: black;
-  font-family: 'Nunito', sans-serif;
-  font-weight: lighter;
-  margin-left: 60px;
-  text-decoration: none;
-}
-
 .texto-educacao {
   font-size: 20px;
   color: black;
@@ -160,6 +234,11 @@ html {
 .icon {
   width: 30px;
   cursor: pointer;
+}
+
+.lista {
+  margin-left: 50px;
+  font-size: 18px;
 }
 
 #github-text, #ig-text, #linkedin-text {
