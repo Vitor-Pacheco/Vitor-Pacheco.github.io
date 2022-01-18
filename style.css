@@ -117,9 +117,10 @@ html {
   width: 200px;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   width: 220px;
-  height: 260px;
+  height: 220px;
 }
 
 .hidden-div {
@@ -155,12 +156,19 @@ html {
 }
 
 .gallery-img {
-  width: 200px;
-  height: 220px;
+  width: 160px;
+  height: 160px;
 }
 
 #html , #css , #javascript {
   cursor: pointer;
+  transition: width 0.2s;
+  transition: height 0.2s;
+}
+
+.gallery-img:hover {
+  height: 180px;
+  width: 180px;
 }
 
 .titulo-div {
@@ -187,6 +195,10 @@ html {
   font-weight: lighter;
   margin-top: 25px;
   text-align: center;
+}
+
+#texto-skills-2 {
+  margin: 0px;
 }
 
 #texto-skills {
