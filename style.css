@@ -8,28 +8,27 @@ html {
 }
 
 ::-webkit-scrollbar {
-  width: 0.9em;
+  width: 0.8em;
 }
 
 ::-webkit-scrollbar-track {
-  background: rgb(230, 228, 228);
+  background: rgb(245, 245, 245);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(99, 99, 99);
+  background: rgb(182, 182, 182);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(87, 87, 87);
+  background: rgb(150, 150, 150);
 }
-
 
 #navegation {
   padding-top: 5px;
   padding-bottom: 5px;
   position: sticky;
   top: 0;
-  background-color: rgb(10, 10, 10);;
+  background-color: rgb(10, 10, 10);
   display: flex;
   justify-content: center;
 }
@@ -37,7 +36,7 @@ html {
 .link-texto {
   font-size: 1.2em;
   color: white;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: lighter;
   margin-left: 20px;
   text-decoration: none;
@@ -52,13 +51,12 @@ html {
   color: rgb(10, 10, 10);
 }
 
-
 #principal {
-  background-image: url('background.jpg');
+  background-image: url("background.jpg");
   padding-bottom: 3%;
 }
 
-#conteudo{
+#conteudo {
   padding-top: 100px;
 }
 
@@ -71,12 +69,15 @@ html {
   border-radius: 100%;
 }
 
-#titulo, #subtitulo {
+#titulo,
+#subtitulo {
   font-size: 6em;
-  text-shadow: 1px 0 0 rgb(0, 0, 0), -1px 0 0 rgb(0, 0, 0), 0 1px 0 rgb(0, 0, 0), 0 -1px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+  text-shadow: 1px 0 0 rgb(0, 0, 0), -1px 0 0 rgb(0, 0, 0), 0 1px 0 rgb(0, 0, 0),
+    0 -1px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0),
+    1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
   margin: 0%;
   color: white;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: lighter;
   text-align: center;
 }
@@ -85,12 +86,18 @@ html {
   font-size: 2em;
 }
 
-#div-antes-sobre, #div-antes-skills, #div-antes-educacao, #div-antes-contatos {
+#div-antes-sobre,
+#div-antes-skills,
+#div-antes-educacao,
+#div-antes-contatos {
   background-color: white;
   border-top: 2px solid black;
 }
 
-#sobre, #skills, #contato, #educacao {
+#sobre,
+#skills,
+#contato,
+#educacao {
   background-color: white;
   border-bottom: 2px solid black;
   padding-top: 20px;
@@ -106,7 +113,7 @@ html {
   justify-content: space-evenly;
   text-align: center;
   margin-top: 20px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: lighter;
   font-size: 20px;
 }
@@ -133,15 +140,12 @@ html {
 .show-div {
   display: block;
   border: 2px solid black;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 130px;
+  margin-right: 130px;
 }
 
 .hide-div {
   display: none;
-  border: 2px solid black;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 #button-skills {
@@ -150,7 +154,7 @@ html {
   border: 2px solid black;
   background-color: rgba(255, 0, 0, 0.761);
   position: relative;
-  left: 97%;
+  left: 96%;
   bottom: 27px;
   cursor: pointer;
 }
@@ -158,24 +162,26 @@ html {
 .gallery-img {
   width: 160px;
   height: 160px;
-}
-
-#html , #css , #javascript {
-  cursor: pointer;
   transition: width 0.2s;
   transition: height 0.2s;
 }
 
+#html,
+#css,
+#javascript {
+  cursor: pointer;
+}
+
 .gallery-img:hover {
-  height: 180px;
-  width: 180px;
+  height: 170px;
+  width: 170px;
 }
 
 .titulo-div {
   font-size: 2em;
   font-weight: bolder;
   color: black;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: lighter;
   margin-left: 40px;
 }
@@ -183,42 +189,52 @@ html {
 .texto {
   font-size: 1.2em;
   color: black;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: lighter;
   margin-left: 40px;
 }
 
-#texto-skills , #texto-skills-2 , #titulo-skills {
+#texto-skills,
+#texto-skills-2,
+#titulo-skills,
+#texto-skills-hidden,
+#titulo-skills-hidden {
   font-size: 1.2em;
   color: black;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: lighter;
   margin-top: 25px;
   text-align: center;
 }
 
 #texto-skills-2 {
-  margin: 0px;
-}
-
-#texto-skills {
+  margin-left: 0px;
   margin-top: 0px;
 }
 
+#titulo-skills-hidden {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#texto-skills-hidden {
+  margin: 0px 20px 20px 20px;
+}
+
 #titulo-skills {
-  margin-top: 5px;
+  margin-top: 0px;
 }
 
 #texto-email {
   font-size: 1em;
   color: black;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: lighter;
   margin-top: 10px;
 }
 
 .foto-div {
-  background-image: url('background.jpg');
+  background-image: url("background.jpg");
   padding-top: 4%;
   padding-bottom: 4%;
 }
@@ -234,7 +250,7 @@ html {
 .texto-educacao {
   font-size: 20px;
   color: black;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: lighter;
   margin-left: 40px;
 }
@@ -253,10 +269,12 @@ html {
   font-size: 18px;
 }
 
-#github-text, #ig-text, #linkedin-text {
+#github-text,
+#ig-text,
+#linkedin-text {
   font-size: 20px;
   color: black;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: lighter;
   margin-left: 0px;
   text-decoration: none;
@@ -264,7 +282,7 @@ html {
 }
 
 #github-text {
-  color:  rgb(130, 0, 130);
+  color: rgb(130, 0, 130);
   transition: font-size 0.3s;
 }
 
@@ -278,7 +296,9 @@ html {
   transition: font-size 0.3s;
 }
 
-#github-text:hover, #ig-text:hover, #linkedin-text:hover {
+#github-text:hover,
+#ig-text:hover,
+#linkedin-text:hover {
   font-size: 22px;
   text-decoration: underline;
 }
@@ -292,7 +312,7 @@ html {
 #texto-footer {
   font-size: 20px;
   color: white;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: lighter;
   text-align: center;
 }
