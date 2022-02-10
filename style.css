@@ -149,10 +149,8 @@ html {
 }
 
 #button-skills {
-  width: 30px;
-  height: 30px;
-  border: 2px solid black;
-  background-color: rgba(255, 0, 0, 0.761);
+  width: 35px;
+  height: 35px;
   position: relative;
   left: 96%;
   bottom: 27px;
